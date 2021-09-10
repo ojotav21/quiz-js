@@ -3,7 +3,7 @@
 <div align="center">
 <img src="https://img.shields.io/static/v1?label=Javascript&message=JS&color=yellow&style=for-the-badge&logo=javascript"/>
 <img src="https://img.shields.io/static/v1?label=CSS&message=CSS&color=blue&style=for-the-badge&logo=css"/>
-<img src="https://img.shields.io/static/v1?label=HTML&message=JS&color=red&style=for-the-badge&logo=html"/>
+<a href="https://ojotav21.github.io/quiz-js/> <img src="https://img.shields.io/static/v1?label=HTML&message=JS&color=red&style=for-the-badge&logo=html"/></a>
 </div>
 
 <br>
