@@ -32,3 +32,4 @@
 </ul>
 <br>
 <h1  id="jogar"align="center"><a href="https://ojotav21.github.io/quiz-js/" target="_blank">Clique aqui para jogar!</a></h1>
+<br>
