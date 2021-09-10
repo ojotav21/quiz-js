@@ -11,7 +11,9 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#autor">Autor</a> •
- <a href="#fontes">Fontes</a>
+ <a href="#fontes">Fontes</a> •
+ <a href="#jogar">Jogar</a>
+
 </p>
 
 
@@ -28,4 +30,5 @@
    <p align="center" >Font Awesome Icons</p>
    <p align="center">Music: XXXTentation - Jocelyn Flores</p>
 </ul>
-
+<br>
+<h1 align="center"><a href="https://ojotav21.github.io/quiz-js/" target="_blank">Clique aqui para jogar!</a></h1>
