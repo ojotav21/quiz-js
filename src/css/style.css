@@ -46,7 +46,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 60rem;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -196,4 +196,65 @@ input::placeholder{
     box-shadow: 0 0.4rem 1.4rem 0 rgb(105, 105, 105, 0.5 );
     transition: transform 150ms;
     transform: scale(1.03);
+}
+
+
+
+
+
+@media (max-width: 767.98px) {
+
+/* Global */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 42.5%;
+    font-family: 'Tomorrow', cursive, sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    color:#f1f1f1;
+    margin-bottom: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 60vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+
+
+}
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container{
+        width: 30vw;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 30rem;
+        margin: 0 auto;
+        margin-top: 5rem;
+        padding: 2rem;
+    }
+
+
 }

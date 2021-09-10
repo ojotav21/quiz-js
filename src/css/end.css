@@ -3,8 +3,35 @@
     height: 45vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     max-width: 80rem;
     margin: 0 auto;
+    margin-top: 5rem;
     padding: 2rem;
+}
+
+
+@media (max-width: 767.98px) {
+    .escolha-container{
+        min-width: 40rem;
+        
+    }
+
+    h1{
+        font-size: 3.5rem;
+        color:#f1f1f1;
+        margin-bottom: 5rem;
+    }
+    
+    h2{
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    #progressText, .hud-prefix{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
 }

@@ -53,7 +53,7 @@ let questoes = [
         resposta: 4,
     },
     {
-        questao:'Quantos oceanos tem o planeta Terra?',
+        questao:'Quantos ocenaos tem o planeta Terra?',
         escolha1: '5',
         escolha2: '3',
         escolha3: '4',
