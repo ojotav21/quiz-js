@@ -1,0 +1,83 @@
+body{
+color: #f1f1f1;
+}
+
+
+/* Escolhas */
+.escolha-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color:#F29F05;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.escolha-container:hover{
+   cursor: pointer;
+   box-shadow: 0 0.4rem 1.4rem 0 rgb(242, 159, 5, 0.5 );
+   transform: scale(1.02);
+   transition: transform 100ms;
+}
+/* Letra da Escolha */
+.escolha-prefix{
+    padding: 2rem 2.5rem;
+    color: #f1f1f1;
+}
+
+.escolha-text{
+    padding: 2rem;
+    width: 100%;
+}
+
+/* certo e errado */
+.correct{
+    background: linear-gradient(32deg, #027313 0%, #025918 100%);
+}
+
+.incorrect{
+    background: linear-gradient(32deg, #8C0303 0%, #BF0404 100%);
+}
+
+
+/* HUD Jogo*/
+
+#hud{
+
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size:2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #027313;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+
+#progressBarFull{
+    height: 100%;
+    background: #027313;
+    width: 0%;
+}
+
+@media screen and (dht: 768px) {
+    .escolha-container{
+        min-width: 40rem;
+    }
+}

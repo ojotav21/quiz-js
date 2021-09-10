@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/game.css">
+    <!-- Font Family -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <!-- Score -->
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Questão
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Pontuação
+                    </p>
+                    <h1 class="hud-main text" id="placar">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <!-- Perguntas -->
+            <h1 id="questao">Quanto é 2+2?</h1>
+            <div class="escolha-container">
+                <p class="escolha-prefix">A</p>
+                <p class="escolha-text" data-numero=1>Escolha</p>
+            </div>
+
+            <div class="escolha-container">
+                <p class="escolha-prefix">B</p>
+                <p class="escolha-text" data-numero=2>Escolha2</p>
+            </div>
+
+            <div class="escolha-container">
+                <p class="escolha-prefix">C</p>
+                <p class="escolha-text" data-numero=3>Escolha3</p>
+            </div>
+
+            <div class="escolha-container">
+                <p class="escolha-prefix">D</p>
+                <p class="escolha-text" data-numero=4>Escolha4</p>
+            </div>
+        </div>
+    </div>
+    <script src="../src/js/game.js"></script>
+</body>
+
+</html>

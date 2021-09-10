@@ -1,0 +1,17 @@
+#btnGoHome{
+    background: linear-gradient(90deg, #696969 0%, #696969 100% );
+    margin-bottom: 2.5rem;
+}
+
+#btnGoHome:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(105, 105, 105, 0.5 );
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+    
+}
+
+.h1{
+    margin-bottom: 4rem;
+}

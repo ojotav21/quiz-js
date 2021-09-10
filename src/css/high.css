@@ -1,0 +1,45 @@
+body{
+    color: #f1f1f1;
+}
+
+#highScoreList{
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score{
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+#btnGoHome{
+    background: linear-gradient(90deg, #696969 0%, #696969 100% );
+}
+
+#btnGoHome:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(105, 105, 105, 0.5 );
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+    
+}
+
+#eraserBtn{
+    background: linear-gradient(32deg, #8C0303 0%, #BF0404 100%);
+    border: none;
+}
+
+#eraserBtn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(206, 30, 30, 0.5);
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+    
+}
+

@@ -1,0 +1,199 @@
+:root{
+    background-color: #243040;
+
+}
+ 
+/* Global */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Tomorrow', cursive, sans-serif;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+/* Titulos */
+
+#tituloQuiz{
+    font-size: 5.4rem;
+    color:#f1f1f1;
+    margin-bottom: 5rem;
+    font-family: 'Playfair Display', cursive, sans-serif;
+
+
+}
+
+h1{
+    font-size: 5.4rem;
+    color:#f1f1f1;
+    margin-bottom: 5rem;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+
+.container{
+    width: 60vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+   justify-content: center;
+   align-items: center;
+
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+s
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #f1f1f1;
+    background: linear-gradient(90deg, #fab433 0%, #F29F05 100% );
+    border-radius: 12px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(242, 159, 5, 0.5 );
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+    /* https://youtu.be/f4fB9Xg2JEY?t=870 */
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#highscore-btn{
+    background: linear-gradient(90deg, #7c91e4 0%, #506AD4 100% );
+}
+
+#highscore-btn:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(80, 106, 212, 0.5);
+}
+
+.fa-trophy{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+
+/* End Page - CSS */
+
+.fa-refresh, .fa-home,.fa-book, .fa-play{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input{
+    margin-bottom: 2.5rem;
+    width: 23rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(103, 122, 196, 0.5);
+}
+
+input::placeholder{
+    color: #aaa;
+}
+
+#username{
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text{
+    font-size: 2.4rem;
+    color: #f1f1f1;
+    text-align: center
+}
+
+#saveScoreBtn{
+    border: none;
+
+}
+
+/* Botão Again */
+#btnAgain{
+    background: linear-gradient(90deg, #028316 0%, #027313 100% );
+}
+
+#btnAgain:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(2, 115, 19, 0.5 );
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+    
+}
+
+
+#btnGoHome{
+    background: linear-gradient(90deg, #7c7c7c 0%, #696969 100% );
+}
+
+#btnGoHome:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(105, 105, 105, 0.5 );
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#creditos-btn{
+    background: linear-gradient(90deg, #cc4101 0%, #832a00 100% );
+
+}
+#creditos:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(105, 105, 105, 0.5 );
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
